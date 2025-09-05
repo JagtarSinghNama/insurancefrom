@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Mobile Insurance Form</title>
+  <style>
+    body {font-family: Arial, sans-serif; margin: 20px;}
+    h2 {color: #0d6efd;}
+    form {max-width: 600px; margin: auto;}
+    label {display: block; margin-top: 10px; font-weight: bold;}
+    input, textarea, select {width: 100%; padding: 8px; margin-top: 4px;}
+    button {margin-top: 15px; padding: 10px; background: #0d6efd; color: white; border: none; cursor: pointer;}
+    button:hover {background: #084298;}
+  </style>
+</head>
+<body>
+  <h2>Customer & Mobile Insurance Form</h2>
+
+  <form action="https://docs.google.com/forms/d/e/1FAIpQLSd12345ABC/formResponse" method="POST" target="_self">
+
+    <label>Customer Name</label>
+    <input type="text" name="entry.123456789" required>
+
+    <label>Mobile Number</label>
+    <input type="text" name="entry.987654321" required>
+
+    <label>Email ID</label>
+    <input type="email" name="entry.112233445" required>
+
+    <label>Mobile Model</label>
+    <input type="text" name="entry.998877665">
+
+    <label>IMEI Number 1</label>
+    <input type="text" name="entry.556677889">
+
+    <label>Insurance Company</label>
+    <input type="text" name="entry.443322110">
+
+    <label>Remarks / Notes</label>
+    <textarea name="entry.12344321"></textarea>
+
+    <button type="submit">Submit</button>
+  </form>
+</body>
+</html>
